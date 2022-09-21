@@ -1,0 +1,149 @@
+body{
+    display: grid;
+    grid-template-areas: 
+    "nav nav nav"
+    "header header header"
+    "main main main"
+    "footer footer footer";
+    background-size: cover;
+}
+header img{
+    border-radius: 50%;
+   
+}
+header{
+    display: grid;
+    grid-area: header;
+    background-image: url(./imagenes/trex20.jpg);
+ 
+    
+}
+footer{
+    display: grid;
+    grid-area: footer;
+    background-color:black;
+}
+nav{
+    display: grid;
+    grid-area: nav;
+}
+main{
+    display: grid;
+    grid-area: main;
+}
+.contenido{
+    background-color:#D8CEDD;
+}
+li{
+    font-family: fantasy;
+}
+.servi{
+    
+    width: 320px;
+    color: #D8CEDD;
+}
+body nav{
+    background-image: url(./imagenes/trex90.jpg);
+}
+strong{
+    font-size: medium;
+    font-weight: bolder;
+    color: black;
+    background-color: aliceblue;
+
+}
+@media(min-width:768px){
+    header img{
+        padding: 3px;
+    }
+    nav{
+        height: 100px;
+    }
+    main img{
+        height: 350px;
+    }
+    footer strong{
+        height: 200px;
+    }
+    .servi{
+        width: 820px;
+    }
+    body nav{
+        background-image: url(./imagenes/trex90.jpg);
+        height: 70px;
+    }
+
+}
+@media (min-width:1200px) {
+    
+       body{
+        display: grid;
+        grid-area: 
+        "nav nav nav"
+        "header header header"
+        "main main main"
+        "footer footer footer";
+       }
+       header{
+        height: 300px;
+        
+       }
+       header img{
+          height: 150px;
+          width: 150px;
+          margin-left: 550px;
+    
+       }
+       nav{
+        height: 70px;
+
+       }
+       main img{
+        height: 500px;
+       }
+       header{
+         height: 250px;
+       }
+       .servi{
+        
+        
+        font-weight: bold;
+        font-size: large;
+       }
+       li{
+        font-size: larger;
+        text-decoration: double;
+        }
+       
+        li a:hover{
+            padding: 20px;
+            background-color: #D8CEDD;
+        }
+        footer a:hover{
+            height: 80px;
+            width: 80px;
+            color:lawngreen;
+        }
+        header h3{
+            margin-top: 50px;
+            
+        }
+       header p{
+        font-weight: bolder;
+       }
+       footer strong{
+        font-size: 25px;
+    
+        background-size: cover;
+       }
+       body nav{
+        background-image: url(./imagenes/trex90.jpg);
+       }
+       footer strong{
+        background-image: url(../imagenes/trex90.jpg);
+       }
+    }
+    main{
+        background-color: grey;
+    }
+
